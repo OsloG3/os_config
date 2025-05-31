@@ -1,1 +1,1 @@
-# nisos_config
+# Personal System Config for NixOs and DWM

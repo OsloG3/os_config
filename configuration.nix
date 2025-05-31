@@ -12,7 +12,8 @@
 
   # Bootloader.
   boot.loader.grub.enable = true;
-  boot.loader.grub.device = "/dev/vda";
+  # change to appropiate device
+  boot.loader.grub.device = "/dev/sda";
   boot.loader.grub.useOSProber = true;
 
   networking.hostName = "nixos"; # Define your hostname.
@@ -95,7 +96,11 @@
     git
     lightdm
     st
+    gh
 
+    networkmanager
+    iw
+    dhcpcd
     firefox
 
     ngspice
